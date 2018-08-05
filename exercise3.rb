@@ -1,5 +1,10 @@
 puts "What is your name?"
 
-name = gets
+your_name = gets.chomp
+puts "Hi #{your_name}"
 
-puts "Hi #{name}"
+puts "How old are you?"
+age = gets.to_i
+
+puts "#{your_name} is #{age} years old!"
+
